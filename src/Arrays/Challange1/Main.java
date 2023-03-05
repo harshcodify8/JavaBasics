@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) {
         int unsortedarr[] = getRandom(10);
         System.out.println(Arrays.toString(unsortedarr));
-
     }
 
     private static int[] getRandom (int length) {
@@ -17,7 +16,7 @@ public class Main {
         for(int i = 0 ; i < length ; i ++) {
             arr[i] = rad.nextInt(100);
         }
-        return arr;
+        return arr; 
     }
     private static int[] sortIntegers(int[] array) {
         int [] sortedArray = Arrays.copyOf(array,array.length);
